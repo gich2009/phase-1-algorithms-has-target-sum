@@ -39,7 +39,7 @@ function hasTargetSum(array, target) {
   The loop defined runs through each element to the end of the array. A difference is calculated for an element and the hash table is referenced
   using the current element(array[i]) to check if the element is equal to any difference that has been hashed in the hashTable from a previous iteration. 
   If it is equal, then there will be a value for hashTable[array[i]] and it will not be undefined, hence the hasTargetSum will return true. 
-  If it is not equal, then hashTable[array[i]] will be undefined meaning that no the current element is not equal to any previously obtained difference. 
+  If it is not equal, then hashTable[array[i]] will be undefined meaning that the current element is not equal to any previously obtained difference. 
 
 */
 
